@@ -17,4 +17,3 @@
     - "@/style/_": ["./src/style/_"],
     - "@/components/_": ["./src/components/_"]
       만약 추가적인 alias를 원한다면 .storybook 폴더의 main.ts파일의 webpackFinal부분을 같이 수정해주셔야 storybook 사용시 에러가 나지 않습니다
-# nextjs_scss
