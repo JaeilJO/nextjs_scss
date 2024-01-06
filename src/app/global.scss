@@ -1,5 +1,38 @@
-html,
-body,
+html {
+    font-size: 62.6%;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    &:focus {
+        outline: none;
+    }
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
 div,
 span,
 applet,
